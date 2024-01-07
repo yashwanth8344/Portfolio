@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+        .navbar {
+            background-color: #333;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.2em;
+            transition: color 0.3s ease;
+        }
+
+        .navbar ul li a:hover {
+            color: #6a1ea7;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .services {
+            max-width: 800px;
+            margin: 50px;
+            padding: 30px;
+            background-color: black;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .services h2 {
+            text-align: center;
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: white;
+        }
+
+        .service {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .service-icon {
+            flex: 0 0 80px;
+            margin-right: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .service-icon img {
+            max-width: 100%;
+            max-height: 60px;
+        }
+
+        .service-details {
+            flex: 1;
+        }
+
+        .service h3 {
+            font-size: 1.5em;
+            color: #ff8f1e;
+            margin-bottom: 10px;
+        }
+
+        .service p {
+            font-size: 1.1em;
+            color: white;
+        }
+        .services {
+            
+            background-color: #6a1ea7; 
+            color: white;
+        }
+
+        .service {
+           
+            background-color: #ff8f1e; 
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .service h3 {
+            
+            color: white;
+        }
+
+        .service p {
+            
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Intro.html">My Intro</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="Resume.html">Resume</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contactme.html">Contact Me</a></li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <h1>Welcome to My Portfolio</h1>
+
+        <section class="services">
+            <h2>Services</h2>
+            <div class="service">
+                <div class="service-icon">
+                    <img src="web.jpg" alt="Web Development Icon">
+                </div>
+                <div class="service-details">
+                    <h3>Web Development</h3>
+                    <p>Expertise in front-end development using various technologies.</p>
+                </div>
+            </div>
+            
+        </section>
+
+        
+    </div>
+</body>
+</html>
